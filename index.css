@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer components {
+  .nav-item {
+    @apply flex items-center text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-lg transition;
+  }
+  .nav-item.active {
+    @apply bg-blue-50 text-blue-600;
+  }
+}

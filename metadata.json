@@ -1,0 +1,6 @@
+{
+  "name": "Team Task Manager",
+  "description": "A full-stack collaborative task management system with role-based access control, project tracking, and real-time dashboard stats.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
